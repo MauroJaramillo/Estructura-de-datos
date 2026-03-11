@@ -60,8 +60,8 @@ public class main {
                         prioridad = "Estandar";
                     }
                     String id = "C-" + i + "-" + k;
-                    manifiesto[posicion] = new Suministro(id, energia, prioridad);  
-                }else {
+                    manifiesto[posicion] = new Suministro(id, energia, prioridad);
+                } else {
                     manifiesto[posicion] = null;
                 }
                 posicion++;
