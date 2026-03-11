@@ -64,7 +64,8 @@ public class main {
                 }else {
                     manifiesto[posicion] = null;
                 }
-            }   posicion++;
+                posicion++;
+            }
         }
         System.out.println("\nManifiesto de vuelo:");
         for (int i = 0; i < manifiesto.length; i++) {
